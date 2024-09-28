@@ -1,0 +1,1 @@
+python train.py --batch 16 --cfg cfg/training/CBAM3.yaml --img 320 320 --epochs 3 --data BBOX/data.yaml --weights yolov7.pt --name 0316 --hyp data/hyp.scratch.p5.yaml --device 0
